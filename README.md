@@ -12,6 +12,8 @@
 ## Tools/Packages
 * [TMDB API](https://developers.themoviedb.org/3/) - For general/streaming info
 * [Rotten Tomatoes Scraper](https://pypi.org/project/rotten-tomatoes-scraper/) - For RT ratings
+* Backend
+    * Redis DB
 
 
 ### API Examples
