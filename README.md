@@ -11,10 +11,14 @@
 
 ## Tools/Packages
 * [TMDB API](https://developers.themoviedb.org/3/) - For general/streaming info
-* [Rotten Tomatoes Client Library](https://pypi.org/project/rotten_tomatoes_client/) - For RT ratings
+* [Rotten Tomatoes Scraper](https://pypi.org/project/rotten-tomatoes-scraper/) - For RT ratings
 
 
 ### API Examples
 ```
 https://api.themoviedb.org/3/discover/movie?api_key=<<api_key>>&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&year=2020&with_watch_monetization_types=flatrate
 ```
+
+## Working Notes
+
+* need to verify rottentomatoes data somehow, the scraper only uses rt.com urls or first movie to show up with the title
